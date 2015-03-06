@@ -1,7 +1,7 @@
 ---
 title       : Welcome to selfman's World! 
 subtitle    : ... a new approach to ....
-author      : Bernhard Thoni
+author      : Bernhard Thoni the Great
 job         : ICT manager
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
@@ -11,13 +11,10 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-## Read-And-Delete
+## Read and Delete
 
-1. Edit YAML front matter
-2. Write using R Markdown
-3. Use an empty line followed by three dashes to separate slides!
 
---- .class #id 
+--- .class2 #slide2 bg:url(http://www.dream-wallpaper.com/free-wallpaper/art-wallpaper/background-color-1-wallpaper/1920x1200/free-wallpaper-15.jpg) 
 
 ## Slide 2
 
@@ -36,18 +33,19 @@ c<-a+b
 
 The result of this computation is 11.  
 
---- .class #id
+--- .class #slide3 .class3 bg:green
 
 ## Slide 3
 
 
-```
-## Error in library("mtcars"): there is no package called 'mtcars'
+```r
+#library('mtcars')
+plot(mtcars$mpg, mtcars$cyl)
 ```
 
 ![plot of chunk chunk_plotting](assets/fig/chunk_plotting-1.png) 
 
---- .class #id
+--- .class #slide4 
 
 ## Slide 4
 
