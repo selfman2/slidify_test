@@ -6,7 +6,7 @@ job         : ICT manager
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
-widgets     : [mathjax, quiz]            # {mathjax, quiz, bootstrap}
+widgets     : [mathjax, quiz, bootstrap]            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
@@ -42,13 +42,25 @@ plot(mtcars$mpg, mtcars$cyl)
 
 ```
 
---- .class #slide4 
+--- .class4 #slide4 &radio 
 
 ## Slide 4
 
-nothing special here
+<center>Quiz me up!</center>  
+  
+What is 5 + 6???
 
---- .class #id
+1. It gives 7
+2. _It gives 11_
+3. It gives 8
+4. Dunno!  
+
+*** .hint   
+What about keying it in your calculator?
+*** .explanation   
+life could be that simple, if.....
+  
+
 
 
 
